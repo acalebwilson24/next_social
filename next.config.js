@@ -4,6 +4,9 @@ const nextConfig = {
   swcMinify: true,
   experimental: {
     appDir: true
+  },
+  images: {
+    domains: ['images.unsplash.com', "lh3.googleusercontent.com"]
   }
 }
 
